@@ -1,0 +1,138 @@
+/*************header*******************/
+.container{
+    position: relative;
+    text-align: center;
+
+}
+header{
+    height: 50%;
+    width: 100%;
+    padding: 0;
+}
+.banner{
+    height: 200px;
+    width:95%;
+    border-radius: 8px;
+    margin: 20px 5px 0 0;
+}
+.title {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    margin: 30px;
+    color:#9a7b4f;
+    text-shadow: 2px 2px  rgba(0, 0, 0, 0.5); 
+}  
+.description {
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    right: 38%;
+    padding-top: 20px;
+    background-color: rgba(211, 193, 177, 0.5); 
+    height: 120px;
+    width: 400px;
+    border-radius: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9a7b4f;
+
+  }
+/*************body*******************/
+body{
+    background-color:#f0eae5;
+}
+.quodiv{
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #d3c1b1;
+    padding: 8px;
+    margin: 0 0 0 50px;
+    border-radius: 8px;
+    width: 500px;
+    height: 60px; 
+}
+.genbtn{
+    border: none;
+    background-color: #c5ac97;
+    color:#fffff0;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0 12px 0 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: inline-block; 
+    cursor:pointer;
+    width: 150px;
+    height: 40px;
+}
+.gbtn{
+    height: 60px;
+    width: 180px;
+    margin-right: 12px ;
+    display: flex;
+    align-items: center;
+}
+.genbtn1{
+    border: none;
+    background-color: #c5ac97;
+    color:#fffff0;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 12px 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: inline-block;
+    cursor:pointer; 
+}
+.genbtn:hover,.genbtn1:hover{
+      background-color: #bda18a;
+      color: #e9e0d8;
+}
+.btn{
+    display: block;
+    margin: 0 0 0 260px;
+}
+#gq,#gqa{
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #d3c1b1;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #fffff0;
+}
+.favoritequote{
+    color: #fffff0;
+    background-color: #d3c1b1;
+    border-radius: 8px ;
+    width: 500px;
+    padding: 0 0 0 5px;
+    margin: 5px 0 0 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*************************Random images***********************************/
+.d1{
+display: inline-block;
+}
+.d2{
+display: inline-block;
+background-color:#d3c1b1;
+border-radius: 8px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:#fffff0;
+    padding-left: 10px;
+    padding-bottom: 12px;
+    margin: 0;
+}
+#randomImage{
+    height: 300px;
+    width:300px;
+    margin: 12px;
+    border-radius: 8px;
+}
+.tot{
+    display: flex;
+    justify-content: space-around;
+}

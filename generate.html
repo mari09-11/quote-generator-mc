@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Quote generator</title>
+</head>
+<body>
+    <!-- the header contains the banner the title and a small description -->
+    <header>
+        <div class="container">
+        <img class="banner" src="/header.png">
+        <h1 class="title">Quote Generator</h1>
+        <p class="description">This website provides you with a quote generator,<br> 
+                               it's one fun way to to find some famous sayings <br>
+                               for your essay not only that but also a perfect<br>
+                               passtime that'll fill you with hope and inspiration<br>
+                               once you're done using it   
+        </p>
+        </div>
+    </header>
+    <!-- we move on tp the part  under which is the buttons, we have the one to generate the quotes and then diplay
+        them where we used displayQuote(), then we have the one that adds the favorites and the one that displays it 
+        in a list 
+        the div quodiv is for the quotes and their author 
+        the div fq is where the favorite quotes are gonna be displayed
+        and d2 is the one I made for the images
+    -->
+    <div class="tot">
+   <div class="d1">
+    <div class="gbtn">
+    <button class="genbtn" onclick="displayQuote()">Generate Quote</button>
+    </div>
+    <div class="quodiv">
+    <div id="gq"></div><br>
+    <div id="gqa"></div>
+    </div>
+    <div class="btn">
+    <button class="genbtn1" onclick="addFav()">Add To Favorites</button>
+    <button class="genbtn1" onclick="displayFav()">display favorites list</button>
+    </div>
+    <div id="fq"></div>
+  </div>
+  <div class="d2">
+    <img id="randomImage" src="" >
+    <h2>Refresh to see another quote!</h2>
+  </div>
+</div>
+</body>
+<script src="/JS/Quotes.js"></script>
+<script src="/JS/generate.js"></script>
+</html>
